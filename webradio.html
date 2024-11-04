@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Radio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .player {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Ma Radio</h1>
+    </header>
+    <main>
+        <section class="player">
+            <h2>Écoutez en direct</h2>
+            <audio controls>
+                <source src="votre-stream-url.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas la balise audio.
+            </audio>
+        </section>
+        <section class="programs">
+            <h2>Programmes</h2>
+            <ul>
+                <li>Programme 1 - 10h00 à 12h00</li>
+                <li>Programme 2 - 12h00 à 14h00</li>
+                <li>Programme 3 - 14h00 à 16h00</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ma Radio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
